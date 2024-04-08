@@ -52,16 +52,18 @@ nav ul li a {
     flex-wrap:wrap; 
     gap: 16px; 
 } 
-.tarjeta{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: center;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
+    border-radius: 15px;
     font-family: sans-serif;
+    background-color: #f2f2f2; /* Color de fondo gris */
 }
+
 .imagen-circular {
     width: 150px;
     height: 150px;
